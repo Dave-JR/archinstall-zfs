@@ -1,0 +1,21 @@
+# Disk and partition variables
+DISK="/dev/sdX"
+EFI_PARTITION="${DISK}1"
+ZFS_PARTITION="${DISK}2"
+
+# ZFS pool and dataset names
+POOL_NAME="rpool"
+ROOT_DATASET="${POOL_NAME}/ROOT/default"
+
+# Encryption password
+ENCRYPTION_PASSWORD="your_password_here"
+
+# Hostname and user details
+HOSTNAME="archlinux"
+USERNAME="your_username"
+PASSWORD="your_password"
+
+# Timezone and locale
+TIMEZONE="America/Chicago"
+LOCALE="en_US.UTF-8"
+KEYMAP="us"
